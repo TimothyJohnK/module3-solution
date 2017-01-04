@@ -1,0 +1,134 @@
+/*styles*/
+body {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  box-sizing: content-box;
+}
+
+
+h1 {
+  color: black;
+  position: absolute;
+  margin: .2em .5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+li {
+  border: 1px solid black;
+
+
+
+}
+
+.navbar {
+  background-color: #a9a9a9;
+  border-radius: 0;
+  border: 4px solid black;
+  box-sizing: border-box;
+  width: 100%;
+  height: 90px;
+}
+
+
+.body-content {
+  background-color: #a9a9a9;
+  box-sizing: border-box;
+
+}
+
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+  border: 2px solid black;
+  top: 3px;
+  position: static;
+
+}
+.navbar-header button.navbar-toggle, {
+
+}
+
+
+#header-nav {
+  background-color: #a9a9a9;
+}
+
+#nav-list {
+
+  text-align: center;
+  box-sizing: body;
+  position: relative;
+
+}
+
+#collapsible-nav {
+  vertical-align: middle;
+}
+
+#collapsible-nav a {
+  font-size: 1.2em;
+}
+#collapsible-nav a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+
+#nav-list a{
+  color: black;
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+  h1 {
+    margin: .1em;
+    font-size: 1.5em;
+  }
+  #header-nav {
+    height: 70px;
+  }
+  .body-content-two {
+    position: absolute;
+    padding-top: 50px;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .container {
+    box-sizing: content-box;
+    width: 95%;
+
+  }
+  .body-content {
+    background-color: #a9a9a9;
+    box-sizing: border-box;
+
+  }
+
+}
+@media screen and (min-width: 1200px) {
+
+  .container {
+    box-sizing: content-box;
+  }
+
+}
